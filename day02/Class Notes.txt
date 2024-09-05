@@ -1,0 +1,22 @@
+JavaScript Programming Day02
+
+
+Today:
+        String
+        Array
+        Functions
+        
+        Tabnine - AI Coding Tool (Code generation, Documentation)
+
+    Next Class:
+        Import & Export
+        Tabnine - AI Coding Tool (Debugging, Prompt Template)
+        Class & Objects
+        Inheritance
+        Error handlings
+        Promises
+        Asynch
+        Await
+
+    Next Next Class:
+        Playwright Intro..

@@ -1,0 +1,40 @@
+JavaScript Programming Day01
+
+Topics:
+    Installations & Setups
+    Variables
+    Operators
+    If Statements
+    Loops
+    Arrays
+    String
+
+    Perplexity AI
+
+
+NodeJS:
+    V20 or higher is needed
+
+VS Code Installation
+
+Created "VS Code Projects" folder on Desktop
+
+Created "js-programming" folder under the "VS Code Projects" folder
+
+Open Settings window: Command + ,
+
+VS Code Settings:
+    Auto Save: afterDelay
+    Font: 18
+    Autocomplete: enabled for JavaScript and TypeScript
+    Clear Previous Output: checked
+
+
+Reformatting the code:
+    Mac: shift + option + f
+    Windows: shift + alt + f
+ 
+
+Class Schedule:
+    Sundays: 10 am ~ 2 pm
+    Wednesdays: 6 pm ~ 9 pm
