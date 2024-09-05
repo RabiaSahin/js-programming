@@ -29,9 +29,9 @@ console.log(100 < 20);
 console.log(10 >= 9);
 console.log(10 <= 11);
 
-console.log(100 == 100);
-console.log(100 == '100'); // true // ==: ignores the data type
-console.log(100 === '100'); //false // compare data and data type
+console.log(100 == 100); //true
+console.log(100 == '100'); // true - because == ignores the data type
+console.log(100 === '100'); //false - brcause === compare value and data type
 
 console.log(100 != 90);
 console.log(100 != '100'); // ignores the data type
