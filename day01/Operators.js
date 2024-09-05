@@ -1,4 +1,5 @@
 //Arithmetic:
+console.log('Arithmetic');
 
 console.log(10 + 20);
 console.log(10 - 5);
@@ -20,6 +21,7 @@ x -= 500;
 console.log(x);
 
 console.log('----------------------');
+console.log('Relational Operators');
 
 //Relational Operators
 
