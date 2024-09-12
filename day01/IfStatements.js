@@ -1,3 +1,5 @@
+//if-else statement
+
 let score = 70;
 
 if(score >= 60){
