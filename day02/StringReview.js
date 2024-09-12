@@ -33,12 +33,23 @@ console.log(expectedResult === actualResult); //false
 
 // ignore case sensitivity
 console.log(  expectedResult.toLowerCase() === actualResult.toLowerCase()); //true
+            // it directly update the existing string object temporary. it creates a temporary object.
 
-console.log("--------------------------------------");
+console.log("---Replace()----------------------");
 
 let words = "Python Python";
 
+//replace method will return me new object. New version of this string object.
+//If I want a new object to be represented by this variable. I still have to assign it back.
+words.replace("Python", "JavaScript");
+console.log(words); //Python Python
+
+words = words.replace("Python", "JavaScript"); //only the 1st one replaced. 2nd one is unaffacted
+                      // old value // new value that you want to replace it with.
+console.log(words); //JavaScript Python
+
 words = words.replace(/Python/g, 'JavaScript'); // g: global flag
+                      // old value // new value that you want to replace it with.
 
 console.log(words); //JavaScript JavaScript
 
@@ -54,6 +65,8 @@ console.log(str); //abcdefghijklmnop
 console.log("--------------------------------------");
 
 let email = "cydeoschool@gmail.com";
+// let domain = email.substring(email.indexOf("@") + 1);
+// console.log(domain); //gmail.com
 
 let domain = email.substring(email.indexOf("@") + 1, email.lastIndexOf("."));
 

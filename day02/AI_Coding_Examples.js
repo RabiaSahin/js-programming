@@ -103,3 +103,29 @@ class Item {
 let item1 = new Item("Shoes", 100, 5);
 
 console.log(item1);
+
+console.log("---self study test---");
+
+// create an array of strings and add 5 student names to it
+
+let students = ["John Doe", "Jane Smith", "Alice Johnson", "Bob Brown", "Charlie Davis"];
+
+// print the array to console
+
+console.log(students);
+
+// set the second and third student names to "Jane" and "Bob" respectively
+
+students[1] = "Jane";
+students[2] = "Bob";
+
+// print the updated array to console
+
+console.log(students);
+
+// display all the elements of the array in reversed order
+
+for(let i = students.length - 1; i >= 0; i--){
+    console.log(students[i]);
+}
+
