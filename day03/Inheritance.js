@@ -25,7 +25,7 @@ class Student extends Person{
 
 class Teacher extends Person{
 
-    constructor(name, age, salary = 60_000){
+    constructor(name, age, salary){
         super(name, age);
         this.salary = salary;
     }
@@ -38,12 +38,12 @@ class Teacher extends Person{
 
 
 let student1 = new Student("John Doe", 18);
-console.log(student1);
-student1.eat();
-student1.study();
+console.log(student1); //Student { name: 'John Doe', age: 18, grade: 'High School' }
+student1.eat(); //John Doe is eating
+student1.study(); //John Doe is studying
 
-let teacher1 = new Teacher("Jane Smith", 40);
-console.log(teacher1);
+let teacher1 = new Teacher("Jane Smith", 40, 60_000);
+console.log(teacher1); //Teacher { name: 'Jane Smith', age: 40, salary: 60000 }
 teacher1.eat();
 teacher1.teach();
 

@@ -13,7 +13,7 @@ async function findElement(locator){
 
 
 async function clickElement(locator){
-    findElement(locator)
+    await findElement(locator)
     .then((message) => {
         console.log(message);
         console.log("Clicked element");
@@ -32,8 +32,9 @@ function getTitle(){
 async function runTest(){
 
     await clickElement('valid');
-    await getTitle();
+    getTitle(); // this function will not use the await keyword because it is not have an async keyword that returns a Promise 
 
+    // await getTitle(); // if we use the await keyword here, it is not wrong but only give this message: "'await' has no effect on the type of this expression."
 
 }
 

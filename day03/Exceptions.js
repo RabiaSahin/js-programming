@@ -1,14 +1,26 @@
-console.log('Test1 Started');
+/*console.log('Test Started');
 
 try{
     console.log(result);
+}catch(error){
+    console.log('An error occurred ==> ' + error);
+}
+
+console.log('Test Finished');
+
+console.log('--------------------------------');*/
+
+console.log('Test1 Started');
+
+try{
+    console.log(result1);
 }catch(error){
     console.error('An error occurred ==> ' + error);
 }
 
 console.log('Test1 Finished');
 
-console.log('--------------------------------');
+/*console.log('---throw keyword-------------------');
 
 console.log('Test2 Started');
 
@@ -29,4 +41,4 @@ switch(browser.toLowerCase()){
 }
 
 
-console.log('Test2 Finished');
+console.log('Test2 Finished');*/
